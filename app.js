@@ -10,3 +10,8 @@ btn.addEventListener("click" , (e) =>{
 });
 
  
+let tog = document.getElementById("togglebtn");
+              
+             tog.addEventListener("click" , ()=>{
+                     document.body.classList.toggle("dark-mode");
+             })
