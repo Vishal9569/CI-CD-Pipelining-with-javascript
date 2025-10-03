@@ -3,13 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Basic Pipelining Implementation </title>
 </head>
 <body>
         <h2>Welcome to Github Acion</h2>
 
-         <button  id="btn">Click me!</button>
+        <button id="togglebtn">ChangeBG</button>
 
-         <script src="app.js"> </script>
+         <button  id="btn">Click me!</button>
+       
+          
+         <script src="app.js"> 
+
+             let tog = document.getElementById("togglebtn");
+              
+             tog.addEventListener("click" , ()=>{
+                     document.body.classList.toggle("dark-mode");
+             })
+         </script>                                                        
 </body>
-</html>  
+</html>

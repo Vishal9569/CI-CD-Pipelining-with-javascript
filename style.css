@@ -1,0 +1,26 @@
+body{
+    background-color: #fff;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+body.dark-mode{
+    background-color: black;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+#togglebtn { 
+    background-color: #e4be77;
+    padding: .5rem;
+    border-radius:.2rem;
+    cursor: pointer;
+}
+
+
